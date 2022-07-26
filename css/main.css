@@ -40,3 +40,9 @@
 footer {
   background: #0D263B;
 }
+
+.contact__img {
+  position: absolute;
+  right: 20px;
+  top: 42%;
+}
