@@ -1,0 +1,42 @@
+.categorey {
+  position: relative;
+}
+
+.categorey__card {
+  position: absolute;
+  top: 160px;
+  left: 105px;
+}
+
+.vermont__section {
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.vermont__description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.contack-img {
+  position: absolute;
+  bottom: -15px;
+  left: 45%;
+  right: 50%;
+}
+
+.border-none{
+  border: none;
+  border-bottom: 1px solid black;
+
+}
+
+footer {
+  background: #0D263B;
+}
