@@ -1,4 +1,18 @@
 /*Home */
+::-webkit-scrollbar {
+  width: 0.8vw;
+  height: 0.8vw;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1c1c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 30px;
+}
+
 .header__top {
   width: 100%;
   position: fixed;
@@ -99,13 +113,15 @@
 
 .contact__img {
   position: absolute;
+  top: 100%;
   right: 20px;
-  top: 42%;
+  z-index: 1000;
 }
 
 .contact__img:hover{
   cursor: pointer;
 }
+
 
 footer {
   background: #0D263B;
@@ -139,3 +155,16 @@ footer {
     max-width: 540px;
   }
 }
+
+@media only screen and(max-width:540px){
+  .container{
+    max-width: 100%;
+
+  }
+
+  input:checked~.header__bottom>div{
+    display: block !important;
+  }
+}
+
+
