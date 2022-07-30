@@ -69,7 +69,7 @@
 
 .categorey__card {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%);
 }
@@ -103,19 +103,22 @@
   top: 42%;
 }
 
+.contact__img:hover{
+  cursor: pointer;
+}
+
 footer {
   background: #0D263B;
 }
 
-@media only screen and(max-width:1400px){
-  .container{
-    max-width: 1140px;
-  }
-}
 
 @media only screen and(max-width:1400px) {
   .container {
     max-width: 1140px;
+  }
+
+  .contact__img{
+    top: 39% !important;
   }
 }
 
