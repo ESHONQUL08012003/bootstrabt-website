@@ -49,8 +49,8 @@
             </li>
           </ul>
 
-          <div class="d-none d-sm-block">
-            <button class="btn btn-outline-light py-3 px-5" type="button"  data-mdb-ripple-color="dark">Light</button>
+          <div class="d-none d-md-block">
+            <button class="btn btn-outline-light py-3 px-5" type="button" data-mdb-ripple-color="dark">Light</button>
           </div>
 
           <label class="d-block d-sm-none" for="person">
@@ -64,10 +64,13 @@
       <div class="container">
         <div class="d-none d-sm-flex justify-content-between aligen-item-center gap-4 my-4">
 
-          <input class="form-control px-5  flex-grow-1" placeholder="Enter an address, neighborhood, city, or ZIP code">
-          <img src="./imgs/home-icon.svg" alt="home-icon" width="30" height="30">
+          <div class="position-relative d-flex flex-grow-1">
+            <input class=" form-control px-5"
+              placeholder="Enter an address, neighborhood, city, or ZIP code">
+            <img src="./imgs/home-icon.svg" alt="home-icon" width="30" height="30">
+          </div>
 
-          <button class="btn-button">
+          <button class=" btn-button">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M16.2188 2.54883H17.3907V3.7207H16.2188V2.54883Z" fill="#0061DF" />
               <path
@@ -81,7 +84,7 @@
             Status
           </button>
 
-          <button class="btn-button">
+          <button class=" btn-button">
             <svg class="mx-1" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M11.751 7.58887L11.2292 8.11068C10.5998 7.78312 9.83098 7.90328 9.30487 8.42943C8.95782 8.77647 8.8085 9.1478 8.83524 9.60142C8.86456 9.99441 8.92924 10.2629 9.11081 10.747C9.37318 11.4865 9.38021 11.8176 9.13864 12.0592C8.98515 12.2127 8.81775 12.2997 8.64103 12.318C8.41988 12.335 8.22844 12.2545 8.03879 12.0649C7.6798 11.7059 7.69144 11.2942 8.08037 10.5964L8.21798 10.3495L7.09611 10.0736L7.01238 10.2008C6.5481 10.9063 6.5164 11.7419 6.91681 12.4232L6.40015 12.9399L7.16384 13.7036L7.6848 13.1826C7.98886 13.364 8.32521 13.4473 8.68627 13.4306C9.17019 13.4113 9.59866 13.2184 9.95976 12.8573L9.96613 12.8506C10.373 12.4074 10.5111 11.9755 10.428 11.408C10.3788 11.0517 10.3215 10.8705 10.2078 10.5295L10.0594 10.0614C10.0353 9.97891 10.0146 9.86707 9.98842 9.72575L9.98603 9.71295C9.95453 9.45573 10.0241 9.32944 10.1547 9.19886C10.3489 9.00469 10.6545 8.99442 10.836 9.17591C11.0343 9.37422 11.1172 9.56933 10.9873 10.0316L10.9251 10.2528L12.0106 10.4848L12.0708 10.3002C12.2422 9.77455 12.2145 9.2972 11.9888 8.87848L12.5148 8.35252L11.751 7.58887Z"
@@ -93,7 +96,7 @@
             Price
           </button>
 
-          <button class="btn-button">
+          <button class=" btn-button">
             <i class="fa-solid fa-sliders text-primary"></i>
             Advanced
           </button>
@@ -124,17 +127,17 @@
 
           <div class="col-md-6 col-lg-4">
             <div class=" card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img class="card-img-top img-fluid" src="/imgs/card__img1.png" alt="card-img">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
 
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-                
+
                 <img class="contact__img" src="./imgs/contact_img1.svg" alt="contack-img">
               </div>
 
@@ -192,17 +195,17 @@
           <div class="col-md-6 col-lg-4">
 
             <div class="card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img src="/imgs/card__img2.png" class="card-img-top" alt="card-img">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
 
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-                
+
                 <img class="contact__img" src="./imgs/contact_img2.svg" alt="contack-img">
               </div>
 
@@ -260,17 +263,17 @@
           <div class="col-md-6 col-lg-4">
 
             <div class="card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img src="/imgs/card__img3.png" class="card-img-top" alt="...">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
 
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-                
+
 
                 <img class="contact__img" src="./imgs/contact_img3.svg" alt="contack-img">
               </div>
@@ -327,17 +330,17 @@
 
           <div class="col-md-6 col-lg-4">
             <div class=" card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img class="card-img-top img-fluid" src="/imgs/card__img1.png" alt="card-img">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
 
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-                
+
                 <img class="contact__img" src="./imgs/contact_img1.svg" alt="contack-img">
               </div>
 
@@ -396,17 +399,17 @@
 
 
             <div class="card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img src="/imgs/card__img2.png" class="card-img-top" alt="card-img">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
 
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-                
+
                 <img class="contact__img" src="./imgs/contact_img2.svg" alt="contack-img">
               </div>
 
@@ -465,430 +468,17 @@
 
 
             <div class="card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img src="/imgs/card__img3.png" class="card-img-top" alt="...">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
 
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-                
 
-                <img class="contact__img" src="./imgs/contact_img3.svg" alt="contack-img">
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">New Apartment Nice Wiew</h5>
-                <p class="card-text">
-                  Quincy St, Brooklyn, NY, USA
-                </p>
-
-                <ul class="d-flex justify-content-between list-unstyled">
-                  <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
-                    <p>4 Beds</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
-                    <p>5 Baths</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
-                    <p>1 Garage</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
-                    <p>1200 Sq Ft</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-between">
-
-                  <span>
-                    <del>$2,800/mo</del> <br>
-                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
-                  </span>
-
-                  <span>
-                    <button class="btn btn-light btn-floating">
-                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
-                    </button>
-                    <button class="btn btn-light  btn-floating">
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                  </span>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-
-            <div class=" card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
-                <img class="card-img-top img-fluid" src="/imgs/card__img1.png" alt="card-img">
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                </a>
-
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
-                  <button type="button" class="btn btn-primary">FEATURED</button>
-                  <button type="button" class="btn btn-dark ">FOR SALE</button>
-                </div>
-                
-                <img class="contact__img" src="./imgs/contact_img1.svg" alt="contack-img">
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">New Apartment Nice Wiew</h5>
-                <p class="card-text">
-                  Quincy St, Brooklyn, NY, USA
-                </p>
-
-                <ul class="d-flex justify-content-between list-unstyled">
-                  <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
-                    <p>4 Beds</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
-                    <p>5 Baths</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
-                    <p>1 Garage</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
-                    <p>1200 Sq Ft</p>
-                  </li>
-                </ul>
-
-              </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-between">
-
-                  <span>
-                    <del>$2,800/mo</del> <br>
-                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
-                  </span>
-
-                  <span>
-                    <button class="btn btn-light btn-floating">
-                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
-                    </button>
-                    <button class="btn btn-light  btn-floating">
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                  </span>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-
-
-            <div class="card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
-                <img src="/imgs/card__img2.png" class="card-img-top" alt="card-img">
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                </a>
-
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
-                  <button type="button" class="btn btn-primary">FEATURED</button>
-                  <button type="button" class="btn btn-dark ">FOR SALE</button>
-                </div>
-                
-                <img class="contact__img" src="./imgs/contact_img2.svg" alt="contack-img">
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">New Apartment Nice Wiew</h5>
-                <p class="card-text">
-                  Quincy St, Brooklyn, NY, USA
-                </p>
-
-
-                <ul class="d-flex list-unstyled justify-content-between">
-                  <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
-                    <p>4 Beds</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
-                    <p>5 Baths</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
-                    <p>1 Garage</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
-                    <p>1200 Sq Ft</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-between">
-
-                  <span>
-                    <del>$2,800/mo</del> <br>
-                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
-                  </span>
-
-                  <span>
-                    <button class="btn btn-light btn-floating">
-                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
-                    </button>
-                    <button class="btn btn-light  btn-floating">
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                  </span>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-
-
-            <div class="card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
-                <img src="/imgs/card__img3.png" class="card-img-top" alt="...">
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                </a>
-
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
-                  <button type="button" class="btn btn-primary">FEATURED</button>
-                  <button type="button" class="btn btn-dark ">FOR SALE</button>
-                </div>
-                
-
-                <img class="contact__img" src="./imgs/contact_img3.svg" alt="contack-img">
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">New Apartment Nice Wiew</h5>
-                <p class="card-text">
-                  Quincy St, Brooklyn, NY, USA
-                </p>
-
-                <ul class="d-flex justify-content-between list-unstyled">
-                  <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
-                    <p>4 Beds</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
-                    <p>5 Baths</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
-                    <p>1 Garage</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
-                    <p>1200 Sq Ft</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-between">
-
-                  <span>
-                    <del>$2,800/mo</del> <br>
-                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
-                  </span>
-
-                  <span>
-                    <button class="btn btn-light btn-floating">
-                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
-                    </button>
-                    <button class="btn btn-light  btn-floating">
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                  </span>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-md-6 col-lg-4">
-            <div class=" card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
-                <img class="card-img-top img-fluid" src="/imgs/card__img1.png" alt="card-img">
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                </a>
-
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
-                  <button type="button" class="btn btn-primary">FEATURED</button>
-                  <button type="button" class="btn btn-dark ">FOR SALE</button>
-                </div>
-                
-                <img class="contact__img" src="./imgs/contact_img1.svg" alt="contack-img">
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">New Apartment Nice Wiew</h5>
-                <p class="card-text">
-                  Quincy St, Brooklyn, NY, USA
-                </p>
-
-                <ul class="d-flex justify-content-between list-unstyled">
-                  <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
-                    <p>4 Beds</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
-                    <p>5 Baths</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
-                    <p>1 Garage</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
-                    <p>1200 Sq Ft</p>
-                  </li>
-                </ul>
-
-              </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-between">
-
-                  <span>
-                    <del>$2,800/mo</del> <br>
-                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
-                  </span>
-
-                  <span>
-                    <button class="btn btn-light btn-floating">
-                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
-                    </button>
-                    <button class="btn btn-light  btn-floating">
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                  </span>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-4">
-
-            <div class="card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
-                <img src="/imgs/card__img2.png" class="card-img-top" alt="card-img">
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                </a>
-
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
-                  <button type="button" class="btn btn-primary">FEATURED</button>
-                  <button type="button" class="btn btn-dark ">FOR SALE</button>
-                </div>
-                
-                <img class="contact__img" src="./imgs/contact_img2.svg" alt="contack-img">
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">New Apartment Nice Wiew</h5>
-                <p class="card-text">
-                  Quincy St, Brooklyn, NY, USA
-                </p>
-
-
-                <ul class="d-flex list-unstyled justify-content-between">
-                  <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
-                    <p>4 Beds</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
-                    <p>5 Baths</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
-                    <p>1 Garage</p>
-                  </li>
-
-                  <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
-                    <p>1200 Sq Ft</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer">
-                <div class="d-flex justify-content-between">
-
-                  <span>
-                    <del>$2,800/mo</del> <br>
-                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
-                  </span>
-
-                  <span>
-                    <button class="btn btn-light btn-floating">
-                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
-                    </button>
-                    <button class="btn btn-light  btn-floating">
-                      <i class="fa-solid fa-heart"></i>
-                    </button>
-                  </span>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-4">
-
-            <div class="card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
-                <img src="/imgs/card__img3.png" class="card-img-top" alt="...">
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-                </a>
-
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
-                  <button type="button" class="btn btn-primary">FEATURED</button>
-                  <button type="button" class="btn btn-dark ">FOR SALE</button>
-                </div>
-                
 
                 <img class="contact__img" src="./imgs/contact_img3.svg" alt="contack-img">
               </div>
@@ -946,17 +536,17 @@
           <div class="col-md-6 col-lg-4">
 
             <div class=" card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img class="card-img-top img-fluid" src="/imgs/card__img1.png" alt="card-img">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
 
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-                
+
                 <img class="contact__img" src="./imgs/contact_img1.svg" alt="contack-img">
               </div>
 
@@ -1015,17 +605,17 @@
 
 
             <div class="card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img src="/imgs/card__img2.png" class="card-img-top" alt="card-img">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
 
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-                
+
                 <img class="contact__img" src="./imgs/contact_img2.svg" alt="contack-img">
               </div>
 
@@ -1084,17 +674,430 @@
 
 
             <div class="card border border-light shadow ">
-              <div class="position-relative bg-image hover-overlay  ripple" data-mdb-ripple-color="light">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img src="/imgs/card__img3.png" class="card-img-top" alt="...">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
 
-                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-                
+
+
+                <img class="contact__img" src="./imgs/contact_img3.svg" alt="contack-img">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">New Apartment Nice Wiew</h5>
+                <p class="card-text">
+                  Quincy St, Brooklyn, NY, USA
+                </p>
+
+                <ul class="d-flex justify-content-between list-unstyled">
+                  <li class="text-center">
+                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <p>4 Beds</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <p>5 Baths</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <p>1 Garage</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <p>1200 Sq Ft</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between">
+
+                  <span>
+                    <del>$2,800/mo</del> <br>
+                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
+                  </span>
+
+                  <span>
+                    <button class="btn btn-light btn-floating">
+                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </button>
+                    <button class="btn btn-light  btn-floating">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-6 col-lg-4">
+            <div class=" card border border-light shadow ">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
+                <img class="card-img-top img-fluid" src="/imgs/card__img1.png" alt="card-img">
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                  <button type="button" class="btn btn-primary">FEATURED</button>
+                  <button type="button" class="btn btn-dark ">FOR SALE</button>
+                </div>
+
+                <img class="contact__img" src="./imgs/contact_img1.svg" alt="contack-img">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">New Apartment Nice Wiew</h5>
+                <p class="card-text">
+                  Quincy St, Brooklyn, NY, USA
+                </p>
+
+                <ul class="d-flex justify-content-between list-unstyled">
+                  <li class="text-center">
+                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <p>4 Beds</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <p>5 Baths</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <p>1 Garage</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <p>1200 Sq Ft</p>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between">
+
+                  <span>
+                    <del>$2,800/mo</del> <br>
+                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
+                  </span>
+
+                  <span>
+                    <button class="btn btn-light btn-floating">
+                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </button>
+                    <button class="btn btn-light  btn-floating">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4">
+
+            <div class="card border border-light shadow ">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
+                <img src="/imgs/card__img2.png" class="card-img-top" alt="card-img">
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                  <button type="button" class="btn btn-primary">FEATURED</button>
+                  <button type="button" class="btn btn-dark ">FOR SALE</button>
+                </div>
+
+                <img class="contact__img" src="./imgs/contact_img2.svg" alt="contack-img">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">New Apartment Nice Wiew</h5>
+                <p class="card-text">
+                  Quincy St, Brooklyn, NY, USA
+                </p>
+
+
+                <ul class="d-flex list-unstyled justify-content-between">
+                  <li class="text-center">
+                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <p>4 Beds</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <p>5 Baths</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <p>1 Garage</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <p>1200 Sq Ft</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between">
+
+                  <span>
+                    <del>$2,800/mo</del> <br>
+                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
+                  </span>
+
+                  <span>
+                    <button class="btn btn-light btn-floating">
+                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </button>
+                    <button class="btn btn-light  btn-floating">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4">
+
+            <div class="card border border-light shadow ">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
+                <img src="/imgs/card__img3.png" class="card-img-top" alt="...">
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                  <button type="button" class="btn btn-primary">FEATURED</button>
+                  <button type="button" class="btn btn-dark ">FOR SALE</button>
+                </div>
+
+
+                <img class="contact__img" src="./imgs/contact_img3.svg" alt="contack-img">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">New Apartment Nice Wiew</h5>
+                <p class="card-text">
+                  Quincy St, Brooklyn, NY, USA
+                </p>
+
+                <ul class="d-flex justify-content-between list-unstyled">
+                  <li class="text-center">
+                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <p>4 Beds</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <p>5 Baths</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <p>1 Garage</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <p>1200 Sq Ft</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between">
+
+                  <span>
+                    <del>$2,800/mo</del> <br>
+                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
+                  </span>
+
+                  <span>
+                    <button class="btn btn-light btn-floating">
+                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </button>
+                    <button class="btn btn-light  btn-floating">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+
+            <div class=" card border border-light shadow ">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
+                <img class="card-img-top img-fluid" src="/imgs/card__img1.png" alt="card-img">
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                  <button type="button" class="btn btn-primary">FEATURED</button>
+                  <button type="button" class="btn btn-dark ">FOR SALE</button>
+                </div>
+
+                <img class="contact__img" src="./imgs/contact_img1.svg" alt="contack-img">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">New Apartment Nice Wiew</h5>
+                <p class="card-text">
+                  Quincy St, Brooklyn, NY, USA
+                </p>
+
+                <ul class="d-flex justify-content-between list-unstyled">
+                  <li class="text-center">
+                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <p>4 Beds</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <p>5 Baths</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <p>1 Garage</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <p>1200 Sq Ft</p>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between">
+
+                  <span>
+                    <del>$2,800/mo</del> <br>
+                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
+                  </span>
+
+                  <span>
+                    <button class="btn btn-light btn-floating">
+                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </button>
+                    <button class="btn btn-light  btn-floating">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+
+
+            <div class="card border border-light shadow ">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
+                <img src="/imgs/card__img2.png" class="card-img-top" alt="card-img">
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                  <button type="button" class="btn btn-primary">FEATURED</button>
+                  <button type="button" class="btn btn-dark ">FOR SALE</button>
+                </div>
+
+                <img class="contact__img" src="./imgs/contact_img2.svg" alt="contack-img">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">New Apartment Nice Wiew</h5>
+                <p class="card-text">
+                  Quincy St, Brooklyn, NY, USA
+                </p>
+
+
+                <ul class="d-flex list-unstyled justify-content-between">
+                  <li class="text-center">
+                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <p>4 Beds</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <p>5 Baths</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <p>1 Garage</p>
+                  </li>
+
+                  <li class="text-center">
+                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <p>1200 Sq Ft</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between">
+
+                  <span>
+                    <del>$2,800/mo</del> <br>
+                    <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
+                  </span>
+
+                  <span>
+                    <button class="btn btn-light btn-floating">
+                      <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </button>
+                    <button class="btn btn-light  btn-floating">
+                      <i class="fa-solid fa-heart"></i>
+                    </button>
+                  </span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+
+
+            <div class="card border border-light shadow ">
+              <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
+                <img src="/imgs/card__img3.png" class="card-img-top" alt="...">
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+
+                <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
+                  <button type="button" class="btn btn-primary">FEATURED</button>
+                  <button type="button" class="btn btn-dark ">FOR SALE</button>
+                </div>
+
 
                 <img class="contact__img" src="./imgs/contact_img3.svg" alt="contack-img">
               </div>
@@ -1168,10 +1171,10 @@
     <div class="container">
       <div class="row ">
         <div class="col-sm-3">
-          <strong class="mb-4 text-white h4">Contact Us</strong>
+          <strong class="d-block mb-4 text-white h4">Contact Us</strong>
           <div>
             <a class="d-flex aligen-item-center text-decoration-none gap-2 text-white" href="#">
-              <i class="fa-solid fa-location-dot h5"></i>
+              <i class="fa-solid fa-location-dot fs-4"></i>
               329 Queensberry Street, North <br> Melbourne VIC 3051, Australia.
             </a>
             <br>
@@ -1199,7 +1202,7 @@
                 <li class="mb-3"><a class="text-decoration-none text-white" href="#">New York</a></li>
               </ul>
             </div>
-            
+
             <div class="col-sm-4">
               <strong class="d-block text-white h5 mb-5">Lists by Category</strong>
               <ul class="p-0 list-unstyled">
@@ -1211,7 +1214,7 @@
                 <li class="mb-3"><a class="text-decoration-none text-white" href="#">Villas</a></li>
               </ul>
             </div>
-            
+
             <div class="col-sm-4">
               <strong class="d-block text-white h5 mb-5">Lists by Category</strong>
               <ul class="p-0 list-unstyled">
@@ -1228,18 +1231,18 @@
 
     <hr class="text-white pb-1">
     <div class="container">
-      <div class="d-flex flex-column flex-sm-row justify-content-between aligen-items-center">
+      <div class="d-flex flex-column flex-md-row justify-content-between aligen-items-center text-center">
         <div>
           <a href="./index.html"><img src="./imgs/logo.svg" alt="logo"></a>
         </div>
 
-        <div class="d-flex aligen-items-center gap-4">
+        <div class="d-flex justify-content-between gap-4">
           <p class="text-white m-0">Copyright © 2021 CreativeLayers. All Right Reserved.</p>
           <button class="btn btn-primary" type="button">
             <i class="fa-solid fa-chevron-up"></i>
           </button>
         </div>
-        
+
       </div>
     </div>
   </footer>
@@ -1249,3 +1252,4 @@
 </body>
 
 </html>
+nut

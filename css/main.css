@@ -23,21 +23,21 @@
 }
 
 .header__bottom {
-  position: relative;
   margin-top: 100px;
 }
 
 .header__bottom img{
-  top: 20%;
-  left: 145px;
   position: absolute;
+  top: 25%;
+  left: 30px;
+  transform: translate(-50%);
 }
 
 .btn-button{
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 12px 30px;
+  padding: 12px 15px;
   border-radius: 5px;
   border: 1px solid #E6E9EC;
   background-color: #fff;
@@ -113,9 +113,8 @@
 
 .contact__img {
   position: absolute;
-  top: 100%;
+  top: 90%;
   right: 20px;
-  z-index: 1000;
 }
 
 .contact__img:hover{
