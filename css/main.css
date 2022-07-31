@@ -26,7 +26,7 @@
   margin-top: 100px;
 }
 
-.header__bottom img{
+.header__bottom-img{
   position: absolute;
   top: 25%;
   left: 30px;
@@ -98,7 +98,7 @@
 
 .vermont__description {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%);
   text-align: center;
@@ -121,6 +121,10 @@
   cursor: pointer;
 }
 
+
+.product-section{
+  margin-top: 120px;
+}
 
 footer {
   background: #0D263B;

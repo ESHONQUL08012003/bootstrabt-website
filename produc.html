@@ -17,116 +17,79 @@
 
 <body>
   <!-- Header  -->
-<header>
-  <div class="header__top">
-    <div class="container">
-      <div class="d-flex justify-content-between align-items-center">
+  <header>
+    <div class="header__top">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
 
-        <div>
-          <a href="./index.html">
-            <img src="./imgs/logo.svg" alt="logo">
-          </a>
-        </div>
 
-        <ul class="d-flex aligen-items-center gap-5 list-unstyled m-0 fs-5 fw-100">
-          <li>
-            <a class="text-decoration-none text-white text-activ" href="./index.html">Home</a>
-          </li>
+          <label class="d-block d-sm-none" for="chek">
+            <img src="./imgs/haburger.svg" alt="haburger">
+          </label>
 
-          <li>
-            <a class="text-decoration-none text-white" href="./produc.html">Properties</a>
-          </li>
+          <input class="d-none" type="checkbox" id="chek">
 
-          <li>
-            <a class="text-decoration-none text-white" href="./contact.html">Contacts</a>
-          </li>
-        </ul>
+          <div>
+            <a href="./index.html">
+              <img src="./imgs/logo.svg" alt="logo">
+            </a>
+          </div>
 
-        <div>
-          <button type="button" class="btn btn-outline-light py-3 px-5" data-mdb-ripple-color="dark">Light</button>
+          <ul class="d-none d-sm-flex aligen-items-center gap-5 list-unstyled m-0 fs-5 fw-100">
+            <li>
+              <a class="text-decoration-none text-white text-activ" href="./index.html">Home</a>
+            </li>
+
+            <li>
+              <a class="text-decoration-none text-white" href="./produc.html">Properties</a>
+            </li>
+
+            <li>
+              <a class="text-decoration-none text-white" href="./contact.html">Contacts</a>
+            </li>
+          </ul>
+
+          <div class="d-none d-md-block">
+            <button class="btn btn-outline-light py-3 px-5" type="button" data-mdb-ripple-color="dark">Light</button>
+          </div>
+
+          <label class="d-block d-sm-none" for="person">
+            <img src="./imgs/login_icon.svg" alt="login">
+          </label>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="header__bottom">
-    <div class="container">
-      <div class="d-flex justify-content-between aligen-item-center gap-4 my-4">
-
-        <input class="form-control px-5  flex-grow-1" placeholder="Enter an address, neighborhood, city, or ZIP code">
-        <img src="./imgs/home-icon.svg" alt="home-icon" width="30" height="30">
-
-        <button class="btn-button">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16.2188 2.54883H17.3907V3.7207H16.2188V2.54883Z" fill="#0061DF" />
-            <path
-              d="M18.5408 15.4391C17.8592 14.9852 17.0415 14.824 16.2386 14.9851L13.0805 15.6482C13.2659 14.7471 12.7955 13.8359 11.9321 13.4975L8.55254 12.1599C7.20613 11.6271 5.71113 11.5946 4.34094 12.0692L0 13.5905V19.393L4.96934 17.7257L11.017 19.9996L20 18.1475L19.8477 17.3881C19.6866 16.5852 19.2225 15.893 18.5408 15.4391ZM11.1124 18.7814L4.99168 16.4801L1.17379 17.7611V14.423L4.72711 13.1777C5.83004 12.7957 7.0352 12.8218 8.12055 13.2514L11.502 14.5898C11.8529 14.7272 12.0321 15.143 11.9017 15.5167C11.8336 15.712 11.6956 15.8657 11.5134 15.9494C11.3438 16.0274 11.1562 16.0334 10.9855 15.9665L6.89266 14.3627L6.46441 15.4556L10.5573 17.0594C10.8827 17.1869 11.2288 17.2189 11.5643 17.1562L11.5663 17.1656L16.4721 16.1355C16.9666 16.0371 17.4704 16.1366 17.8904 16.4163C18.1999 16.6224 18.4367 16.908 18.5798 17.2419L11.1124 18.7814Z"
-              fill="#0061DF" />
-            <path
-              d="M9.97285 10.9817C10.1661 11.038 10.3633 11.0655 10.5589 11.0654C11.1065 11.0654 11.6414 10.8504 12.0398 10.4519L15.0445 7.44719L16.0786 8.48129L19.1682 5.39164C19.7047 4.85516 20.0002 4.14184 20.0002 3.38309C20.0002 2.62434 19.7047 1.91102 19.1682 1.37453L18.6256 0.831953C18.0891 0.295469 17.3758 0 16.6171 0C15.8583 0 15.145 0.295469 14.6085 0.831953L11.5189 3.9216L12.553 4.95566L7.30469 10.2039L9.97285 10.9817ZM13.1762 3.9216L15.4371 1.66059C15.7523 1.34543 16.1713 1.17188 16.6171 1.17188C17.0628 1.17188 17.4819 1.34543 17.797 1.66059L18.3396 2.20316C18.6548 2.51832 18.8283 2.93738 18.8283 3.38309C18.8283 3.82879 18.6548 4.24785 18.3396 4.56301L16.0786 6.82398L13.1762 3.9216ZM14.2159 6.61859L11.2111 9.62328C10.973 9.86145 10.6242 9.9509 10.3007 9.8566L9.53309 9.63285L13.3816 5.78434L14.2159 6.61859Z"
-              fill="#0061DF" />
-          </svg>
-
-          Status
-        </button>
-
-        <button class="btn-button">
-          <svg class="mx-1" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M11.751 7.58887L11.2292 8.11068C10.5998 7.78312 9.83098 7.90328 9.30487 8.42943C8.95782 8.77647 8.8085 9.1478 8.83524 9.60142C8.86456 9.99441 8.92924 10.2629 9.11081 10.747C9.37318 11.4865 9.38021 11.8176 9.13864 12.0592C8.98515 12.2127 8.81775 12.2997 8.64103 12.318C8.41988 12.335 8.22844 12.2545 8.03879 12.0649C7.6798 11.7059 7.69144 11.2942 8.08037 10.5964L8.21798 10.3495L7.09611 10.0736L7.01238 10.2008C6.5481 10.9063 6.5164 11.7419 6.91681 12.4232L6.40015 12.9399L7.16384 13.7036L7.6848 13.1826C7.98886 13.364 8.32521 13.4473 8.68627 13.4306C9.17019 13.4113 9.59866 13.2184 9.95976 12.8573L9.96613 12.8506C10.373 12.4074 10.5111 11.9755 10.428 11.408C10.3788 11.0517 10.3215 10.8705 10.2078 10.5295L10.0594 10.0614C10.0353 9.97891 10.0146 9.86707 9.98842 9.72575L9.98603 9.71295C9.95453 9.45573 10.0241 9.32944 10.1547 9.19886C10.3489 9.00469 10.6545 8.99442 10.836 9.17591C11.0343 9.37422 11.1172 9.56933 10.9873 10.0316L10.9251 10.2528L12.0106 10.4848L12.0708 10.3002C12.2422 9.77455 12.2145 9.2972 11.9888 8.87848L12.5148 8.35252L11.751 7.58887Z"
-              fill="#0061DF" />
-            <path
-              d="M20 0.838301L19.1742 0.0078125L16.916 2.25326L9.59496 1.40361L0 10.986L8.99492 19.9927L18.5898 10.4102L17.7485 3.07708L20 0.838301ZM17.3618 9.98152L8.99597 18.3365L1.65625 10.9871L10.0221 2.63216L15.8543 3.30904L14.6815 4.47521C14.4724 4.38226 14.2444 4.33292 14.0086 4.33292C13.5664 4.33292 13.1506 4.505 12.8377 4.81749C12.1912 5.46314 12.1905 6.51442 12.8361 7.16093C13.1492 7.4744 13.5656 7.64703 14.0086 7.64703C14.4509 7.64703 14.8667 7.47495 15.1796 7.16245C15.6832 6.65953 15.7948 5.91059 15.5145 5.29848L16.6904 4.12922L17.3618 9.98152ZM14.352 6.3338C14.2603 6.42542 14.1383 6.47589 14.0086 6.47589C13.8787 6.47589 13.7566 6.42526 13.6648 6.33337C13.4755 6.1438 13.4757 5.83548 13.6652 5.64615C13.757 5.55449 13.879 5.50405 14.0086 5.50405C14.1386 5.50405 14.2607 5.55468 14.3525 5.64658C14.5418 5.83614 14.5416 6.14446 14.352 6.3338Z"
-              fill="#0061DF" />
-          </svg>
-          Price
-        </button>
-
-        <button class="btn-button">
-          <i class="fa-solid fa-sliders text-primary"></i>
-          Advanced
-        </button>
-
-        <button class="d-flex d-md-none align-items-center gap-3 btn btn-primary px-5">
-          <i class="fa-solid fa-magnifying-glass fs-5"></i>
-          Search
-        </button>
-
-
-      </div>
-    </div>
-  </div>
-</header>
+  </header>
 
   <!--/Header  -->
 
   <!-- main  -->
   <main>
-    <section class="my-5">
+    <section class="product-section">
       <div class="container">
-        <div class="d-flex justify-content-between gap-5">
-          <div>
-            <img class="imgb-fluid" src="./imgs/produck__img.png" alt="">
+        <div class="row g-4 mb-4">
+          <div class="col-md-6">
+            <img class="img-fluid w-100" src="./imgs/produck__img.png" alt="hero__logo">
           </div>
 
-          <div>
-            <ul class="d-flex justify-content-between flex-wrap gap-3 m-0 p-0 list-unstyled">
-              <li>
-                <img src="./imgs/produck__img2.png" alt="" width="313" height="195">
-              </li>
+          <div class="col-md-6">
+            <div class="row g-4">
+              <div class="col-6">
+                <img class="imf-fluid w-100" src="./imgs/produck__img2.png" alt="hero__logo">
+              </div>
 
-              <li>
-                <img src="./imgs/produck__img3.png" alt="" width="313" height="195">
-              </li>
+              <div class="col-6">
+                <img class="imf-fluid w-100" src="./imgs/produck__img3.png" alt="hero__logo">
+              </div>
 
-              <li>
-                <img src="./imgs/produck__img4.png" alt="" width="313" height="195">
-              </li>
+              <div class="col-6">
+                <img class="imf-fluid w-100" src="./imgs/produck__img4.png" alt="hero__logo">
+              </div>
 
-              <li>
-                <img src="./imgs/produck__img5.png" alt="" width="313" height="195">
-              </li>
-            </ul>
+              <div class="col-6">
+                <img class="imf-fluid w-100" src="./imgs/produck__img5.png" alt="hero__logo">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -134,54 +97,64 @@
 
     <section>
       <div class="container">
-        <div class="row">
-          <div class="col-9">
+        <div class="row g-4">
+          <div class="col-lg-9 ">
             <div class="d-flex justify-content-between aligen-item-center mb-4">
               <div>
-                <h3 class="m-0">Luxury Family Loft by Victoria Park</h3>
-                <strong class="h5">Quincy St, Brooklyn, NY, USA</strong>
+                <h3 class="m-0 text-dark">Luxury Family Loft by Victoria Park</h3>
+                <p class="m-0">Quincy St, Brooklyn, NY, USA</p>
               </div>
 
-              <div class="d-flex justify-content-between gap-3 aligen-item-center me-4">
+              <div class="d-flex justify-content-between gap-4 aligen-items-center">
 
-                <div class="me-3">
+                <div class="d-flex align-items-center gap-2">
+                  <button type="button" class="btn btn-light btn-floating">
                   <i class="fa-solid fa-share-nodes me-2"></i>
-                  Share
+                  </button>
+                  <span>Share</span>
                 </div>
 
-                <div>
-                  <i class="fa-solid fa-heart me-2"></i>
-                  Save
+                <div class="d-flex align-items-center gap-2">
+                  <button type="button" class="btn btn-light btn-floating">
+                    <i class="fa-solid fa-heart"></i>
+                  </button>
+                  <span>Save</span>
                 </div>
+
               </div>
             </div>
 
             <div class="d-flex justify-content-between mb-5">
-              <div class="d-flex gap-5">
-                <div class="text-center me-4">
-                  <img src="./imgs/vector1.svg" alt="vector1">
+              <div class="d-flex aligen-items-center gap-4">
+                <div class="text-center">
+                  <i class="fas fa-bed fa-xl"></i>
                   <span>4 Beds</span>
                 </div>
 
-                <div class="text-center me-4">
-                  <img src="./imgs/vector2.svg" alt="vector1">
+                <div class="text-center ">
+                <i class="fas fa-bath fa-xl"></i>
                   <span>5 Baths</span>
                 </div>
 
-                <div class="text-center me-4">
-                  <img src="./imgs/vector3.svg" alt="vector1">
+                <div class="text-center">
+                <i class="fas fa-car-alt fa-xl"></i>
                   <span>1 Garage</span>
                 </div>
 
                 <div class="text-center">
-                  <img src="./imgs/Vector4.svg" alt="vector1">
+                <i class="fas fa-ruler fa-xl"></i>
+                  <span>1200 Sq Ft</span>
+                </div>
+
+                <div class="text-center">
+                  <i class="far fa-calendar fa-xl"></i>
                   <span>1200 Sq Ft</span>
                 </div>
               </div>
 
               <div>
                 <del>$2,800/mo</del>
-                <ins class="text-decoration-none h5">$7,500/mo</ins>
+                <ins class="text-decoration-none h5 text-dark">$7,500/mo</ins>
                 <p>Est. Mortgage</p>
               </div>
             </div>
@@ -699,10 +672,10 @@
             </div>
           </div>
 
-          <div class="col-3">
+          <div class="col-lg-3">
             <form class="d-flex flex-wrap gap-3 p-4 shadow-sm" action="https://echo.htmlacademy.ru/courses">
               <div class="d-flex align-items-center">
-                <img src="./imgs/contact_img.png" alt="contack-img">
+                <img src="./imgs/contact_img1.svg" alt="contack-img">
                 <span>
                   <strong>Darrel Steward</strong> <br> (123)456-7890
                 </span>
@@ -744,45 +717,45 @@
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
-          
+
               <img class="contact__img" src="./imgs/contact_img1.svg" alt="contack-img">
               <div class="card-body">
                 <h5 class="card-title">New Apartment Nice Wiew</h5>
                 <p class="card-text">
                   Quincy St, Brooklyn, NY, USA
                 </p>
-          
+
                 <ul class="d-flex justify-content-between list-unstyled">
                   <li class="text-center">
                     <img src="./imgs/vector1.svg" alt="vector1">
                     <p>4 Beds</p>
                   </li>
-          
+
                   <li class="text-center">
                     <img src="./imgs/vector2.svg" alt="vector1">
                     <p>5 Baths</p>
                   </li>
-          
+
                   <li class="text-center">
                     <img src="./imgs/vector3.svg" alt="vector1">
                     <p>1 Garage</p>
                   </li>
-          
+
                   <li class="text-center">
                     <img src="./imgs/Vector4.svg" alt="vector1">
                     <p>1200 Sq Ft</p>
                   </li>
                 </ul>
-          
+
               </div>
               <div class="card-footer">
                 <div class="d-flex justify-content-between">
-          
+
                   <span>
                     <del>$2,800/mo</del> <br>
                     <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
                   </span>
-          
+
                   <span>
                     <button class="btn btn-light btn-floating">
                       <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
@@ -791,14 +764,14 @@
                       <i class="fa-solid fa-heart"></i>
                     </button>
                   </span>
-          
+
                 </div>
               </div>
             </div>
           </div>
-          
+
           <div class="col-md-6 col-lg-4">
-          
+
             <div class="card border border-light shadow ">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="/imgs/card__img2.png" class="card-img-top" alt="card-img">
@@ -806,30 +779,30 @@
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
-          
+
               <div class="card-body">
                 <h5 class="card-title">New Apartment Nice Wiew</h5>
                 <p class="card-text">
                   Quincy St, Brooklyn, NY, USA
                 </p>
-          
+
                 <img class="contact__img" src="./imgs/contact_img2.svg" alt="contack-img">
                 <ul class="d-flex list-unstyled justify-content-between">
                   <li class="text-center">
                     <img src="./imgs/vector1.svg" alt="vector1">
                     <p>4 Beds</p>
                   </li>
-          
+
                   <li class="text-center">
                     <img src="./imgs/vector2.svg" alt="vector1">
                     <p>5 Baths</p>
                   </li>
-          
+
                   <li class="text-center">
                     <img src="./imgs/vector3.svg" alt="vector1">
                     <p>1 Garage</p>
                   </li>
-          
+
                   <li class="text-center">
                     <img src="./imgs/Vector4.svg" alt="vector1">
                     <p>1200 Sq Ft</p>
@@ -838,12 +811,12 @@
               </div>
               <div class="card-footer">
                 <div class="d-flex justify-content-between">
-          
+
                   <span>
                     <del>$2,800/mo</del> <br>
                     <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
                   </span>
-          
+
                   <span>
                     <button class="btn btn-light btn-floating">
                       <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
@@ -852,14 +825,14 @@
                       <i class="fa-solid fa-heart"></i>
                     </button>
                   </span>
-          
+
                 </div>
               </div>
             </div>
           </div>
-          
+
           <div class="col-md-6 col-lg-4">
-          
+
             <div class="card border border-light shadow ">
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="/imgs/card__img3.png" class="card-img-top" alt="...">
@@ -867,30 +840,30 @@
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
-          
+
               <div class="card-body">
                 <h5 class="card-title">New Apartment Nice Wiew</h5>
                 <p class="card-text">
                   Quincy St, Brooklyn, NY, USA
                 </p>
-          
+
                 <ul class="d-flex justify-content-between list-unstyled">
                   <img class="contact__img" src="./imgs/contact_img3.svg" alt="contack-img">
                   <li class="text-center">
                     <img src="./imgs/vector1.svg" alt="vector1">
                     <p>4 Beds</p>
                   </li>
-          
+
                   <li class="text-center">
                     <img src="./imgs/vector2.svg" alt="vector1">
                     <p>5 Baths</p>
                   </li>
-          
+
                   <li class="text-center">
                     <img src="./imgs/vector3.svg" alt="vector1">
                     <p>1 Garage</p>
                   </li>
-          
+
                   <li class="text-center">
                     <img src="./imgs/Vector4.svg" alt="vector1">
                     <p>1200 Sq Ft</p>
@@ -899,12 +872,12 @@
               </div>
               <div class="card-footer">
                 <div class="d-flex justify-content-between">
-          
+
                   <span>
                     <del>$2,800/mo</del> <br>
                     <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
                   </span>
-          
+
                   <span>
                     <button class="btn btn-light btn-floating">
                       <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
@@ -913,7 +886,7 @@
                       <i class="fa-solid fa-heart"></i>
                     </button>
                   </span>
-          
+
                 </div>
               </div>
             </div>
@@ -927,12 +900,12 @@
   <!-- footer  -->
   <footer class="py-4">
     <div class="container">
-      <div class="d-flex justify-content-between">
-        <div class="col3 d-flex flex-column me-5">
-          <strong class="mb-4 text-white h4">Contact Us</strong>
+      <div class="row ">
+        <div class="col-sm-3">
+          <strong class="d-block mb-4 text-white h4">Contact Us</strong>
           <div>
             <a class="d-flex aligen-item-center text-decoration-none gap-2 text-white" href="#">
-              <i class="fa-solid fa-location-dot h5"></i>
+              <i class="fa-solid fa-location-dot fs-4"></i>
               329 Queensberry Street, North <br> Melbourne VIC 3051, Australia.
             </a>
             <br>
@@ -943,60 +916,64 @@
             <br>
             <br>
             <a class="text-decoration-none h5 text-white" href="mailto:support@houzing.com">
-            <i class="fa-solid fa-envelope"></i>
+              <i class="fa-solid fa-envelope"></i>
               support@houzing.com
             </a>
           </div>
         </div>
 
-        <ul class="col-9 d-flex justify-content-between gap-5 p-0 list-unstyled">
-          <li>
-            <strong class="d-block text-white h5 mb-5">Discover</strong>
-            <ul class="p-0 list-unstyled">
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Chicago</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Los Angeles</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Miami</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">New York</a></li>
-            </ul>
-          </li>
+        <div class=" col-sm-9 ">
+          <div class="row">
+            <div class="col-sm-4">
+              <strong class="d-block text-white h5 mb-5">Discover</strong>
+              <ul class="p-0 list-unstyled">
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Chicago</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Los Angeles</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Miami</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">New York</a></li>
+              </ul>
+            </div>
 
-          <li>
-            <strong class="d-block text-white h5 mb-5">Lists by Category</strong>
-            <ul class="p-0 list-unstyled">
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Apartments</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Condos</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Houses</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Offices</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Retail</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Villas</a></li>
-            </ul>
-          </li>
+            <div class="col-sm-4">
+              <strong class="d-block text-white h5 mb-5">Lists by Category</strong>
+              <ul class="p-0 list-unstyled">
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Apartments</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Condos</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Houses</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Offices</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Retail</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Villas</a></li>
+              </ul>
+            </div>
 
-          <li>
-            <strong class="d-block text-white h5 mb-5">Lists by Category</strong>
-            <ul class="p-0 list-unstyled">
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">About Us</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Terms & Conditions</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Support Center</a></li>
-              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Contact Us</a></li>
-            </ul>
-          </li>
-        </ul>
+            <div class="col-sm-4">
+              <strong class="d-block text-white h5 mb-5">Lists by Category</strong>
+              <ul class="p-0 list-unstyled">
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">About Us</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Terms & Conditions</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Support Center</a></li>
+                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
     <hr class="text-white pb-1">
     <div class="container">
-      <div class="d-flex justify-content-between aligen-item-center">
+      <div class="d-flex flex-column flex-md-row justify-content-between aligen-items-center text-center">
         <div>
           <a href="./index.html"><img src="./imgs/logo.svg" alt="logo"></a>
         </div>
 
-        <div class="d-flex aligen-item-center gap-4">
+        <div class="d-flex justify-content-between gap-4">
           <p class="text-white m-0">Copyright © 2021 CreativeLayers. All Right Reserved.</p>
           <button class="btn btn-primary" type="button">
             <i class="fa-solid fa-chevron-up"></i>
           </button>
         </div>
+
       </div>
     </div>
   </footer>
