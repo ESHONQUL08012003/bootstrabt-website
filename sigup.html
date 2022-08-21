@@ -5,16 +5,152 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="./node_modules/mdb-ui-kit/css/mdb.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>eshonqul</title>
 </head>
 
 <body>
+
+<!-- Header  -->
+<header>
+  <div class="header__top">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+
+
+        <label class="d-block d-sm-none" for="chek">
+          <img src="./imgs/haburger.svg" alt="haburger">
+        </label>
+
+        <input class="d-none" type="checkbox" id="chek">
+
+        <div>
+          <a href="./index.html">
+            <img src="./imgs/logo.svg" alt="logo">
+          </a>
+        </div>
+
+        <ul class="d-none d-sm-flex aligen-items-center gap-5 list-unstyled m-0 fs-5 fw-100">
+          <li>
+            <a class="text-decoration-none text-white text-activ" href="./index.html">Home</a>
+          </li>
+          <li>
+            <a class="text-decoration-none text-white" href="./produc.html">Properties</a>
+          </li>
+
+          <li>
+            <a class="text-decoration-none text-white" href="./contact.html">Contacts</a>
+          </li>
+        </ul>
+
+        <div class="d-none d-md-block">
+          <button class="btn btn-outline-light py-3 px-5" type="button" data-mdb-ripple-color="dark">Light</button>
+        </div>
+
+
+        <img class="d-block d-sm-none" src="./imgs/login_icon.svg" alt="login">
+
+      </div>
+    </div>
+  </div>
+</header>
+<!-- /header  -->
+
+<main>
   <div class="container-sm">
     <form class="row" action="https://echo.htmlacademy.ru/courses" method="post">
       <label for="adress"></label>
       <input id="adress" type="text">
     </form>
   </div>
+</main>
+
+<!-- footer  -->
+<footer class="py-4">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-3">
+        <strong class="d-block mb-4 text-white h4">Contact Us</strong>
+        <div>
+          <a class="d-flex aligen-item-center text-decoration-none gap-2 text-white" href="#">
+            <i class="fa-solid fa-location-dot fs-4"></i>
+            329 Queensberry Street, North <br> Melbourne VIC 3051, Australia.
+          </a>
+          <br>
+          <a class="text-decoration-none h5 text-white" href="tel:123 456 7890">
+            <i class="fa-solid fa-phone"></i>
+            123 456 7890
+          </a>
+          <br>
+          <br>
+          <a class="text-decoration-none h5 text-white" href="mailto:support@houzing.com">
+            <i class="fa-solid fa-envelope"></i>
+            support@houzing.com
+          </a>
+        </div>
+      </div>
+
+      <div class=" col-sm-9 ">
+        <div class="row">
+          <div class="col-sm-4">
+            <strong class="d-block text-white h5 mb-5">Discover</strong>
+            <ul class="p-0 list-unstyled">
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Chicago</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Los Angeles</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Miami</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">New York</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-4">
+            <strong class="d-block text-white h5 mb-5">Lists by Category</strong>
+            <ul class="p-0 list-unstyled">
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Apartments</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Condos</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Houses</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Offices</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Retail</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Villas</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-4">
+            <strong class="d-block text-white h5 mb-5">Lists by Category</strong>
+            <ul class="p-0 list-unstyled">
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">About Us</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Terms & Conditions</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Support Center</a></li>
+              <li class="mb-3"><a class="text-decoration-none text-white" href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="text-white pb-1">
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row justify-content-between aligen-items-center text-center">
+      <div>
+        <a href="./index.html"><img src="./imgs/logo.svg" alt="logo"></a>
+      </div>
+
+      <div class="d-flex justify-content-between gap-4">
+        <p class="text-white m-0">Copyright © 2021 CreativeLayers. All Right Reserved.</p>
+        <button class="btn btn-primary" type="button">
+          <i class="fa-solid fa-chevron-up"></i>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<!-- /footer  -->
 </body>
 
 </html>
