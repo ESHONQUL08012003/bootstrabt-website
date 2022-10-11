@@ -48,11 +48,12 @@
           </ul>
 
           <div class="d-none d-md-block">
-            <button class="btn btn-outline-light py-3 px-5" type="button" data-mdb-ripple-color="dark">Light</button>
+            <button class="btn  header-btn btn-outline-white py-3 px-5" type="button"
+              data-mdb-ripple-color="dark">Login</button>
           </div>
 
 
-            <img class="d-block d-sm-none" src="./imgs/login_icon.svg" alt="login">
+          <img class="d-block d-sm-none" src="./imgs/login_icon.svg" alt="login">
 
         </div>
       </div>
@@ -81,8 +82,8 @@
             Status
           </button>
 
-          <button class=" btn-button">
-            <svg class="mx-1" width="20" height="20"  fill="none" xmlns="http://www.w3.org/2000/svg">
+          <button class="btn-button">
+            <svg class="mx-1" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M11.751 7.58887L11.2292 8.11068C10.5998 7.78312 9.83098 7.90328 9.30487 8.42943C8.95782 8.77647 8.8085 9.1478 8.83524 9.60142C8.86456 9.99441 8.92924 10.2629 9.11081 10.747C9.37318 11.4865 9.38021 11.8176 9.13864 12.0592C8.98515 12.2127 8.81775 12.2997 8.64103 12.318C8.41988 12.335 8.22844 12.2545 8.03879 12.0649C7.6798 11.7059 7.69144 11.2942 8.08037 10.5964L8.21798 10.3495L7.09611 10.0736L7.01238 10.2008C6.5481 10.9063 6.5164 11.7419 6.91681 12.4232L6.40015 12.9399L7.16384 13.7036L7.6848 13.1826C7.98886 13.364 8.32521 13.4473 8.68627 13.4306C9.17019 13.4113 9.59866 13.2184 9.95976 12.8573L9.96613 12.8506C10.373 12.4074 10.5111 11.9755 10.428 11.408C10.3788 11.0517 10.3215 10.8705 10.2078 10.5295L10.0594 10.0614C10.0353 9.97891 10.0146 9.86707 9.98842 9.72575L9.98603 9.71295C9.95453 9.45573 10.0241 9.32944 10.1547 9.19886C10.3489 9.00469 10.6545 8.99442 10.836 9.17591C11.0343 9.37422 11.1172 9.56933 10.9873 10.0316L10.9251 10.2528L12.0106 10.4848L12.0708 10.3002C12.2422 9.77455 12.2145 9.2972 11.9888 8.87848L12.5148 8.35252L11.751 7.58887Z"
                 fill="#0061DF" />
@@ -111,30 +112,102 @@
 
   <!-- main  -->
   <main>
+
     <section class="hero__section">
+      <div class="container register-content   position-relative">
+        <form class="regster">
+
+          <div class="mb-4">
+            <h3 class="text-start text-black fw-bold">Address</h3>
+            <div class="d-flex justify-content-start gap-5">
+              <div class="form-outline">
+                <input class="form-control" required type="text" id="form12" />
+                <label class="form-label" for="form12">Country</label>
+              </div>
+
+              <div class="form-outline">
+                <input class="form-control" required type="text" id="form12" />
+                <label class="form-label" for="form12">Region</label>
+              </div>
+
+              <div class="form-outline">
+                <input class="form-control" required type="text" id="form12" />
+                <label class="form-label" for="form12">City</label>
+              </div>
+
+              <div class="form-outline">
+                <input class="form-control" required type="text" id="form12" />
+                <label class="form-label" for="form12">Zip code</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <h3 class="text-start text-black fw-bold">Apartment info</h3>
+            <div class="d-flex gap-5">
+              <div class="form-outline">
+                <input class="form-control" required type="text" id="form12" />
+                <label class="form-label" for="form12">Rooms</label>
+              </div>
+
+              <div class="form-outline">
+                <input class="form-control" required type="text" id="form12" />
+                <label class="form-label" for="form12">Size</label>
+              </div>
+
+              <div class="form-outline">
+                <input class="form-control" required type="text" id="form12" />
+                <label class="form-label" for="form12">Sort</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <h3 class="text-start text-black fw-bold">Price</h3>
+            <div class="d-flex gap-5">
+              <div class="form-outline">
+                <input class="form-control" required type="text" id="form12" />
+                <label class="form-label" for="form12">MIn Pric</label>
+              </div>
+
+              <div class="form-outline">
+                <input class="form-control" required type="text" id="form12" />
+                <label class="form-label" for="form12">Max Pric</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-end gap-4 pt-3 border-top">
+            <button class="btn btn-white py-3 px-5" type="reset">Cancel</button>
+            <button class="btn btn-primary py-3 px-5" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+
       <div class="hero__description">
-        <h1 class="mb-3 fs-5 fs-md-1">
+
+        <h1 class="mb-3 fs-1">
           Skyper Pool Partment
         </h1>
-        <p class="mb-4 fs-6 fw-light">112 Glenwood Ave Hyde Park, Boston, MA</p>
+        <p class="mb-4 fs-4 fw-light">112 Glenwood Ave Hyde Park, Boston, MA</p>
         <ul class="d-flex justify-content-around list-unstyled mb-4">
           <li class="text-center">
-            <img src="./imgs/vector1.svg" alt="vector1">
+            <img src="./imgs/vector1.svg" alt="vector1.svg">
             <p>4 Beds</p>
           </li>
 
           <li class="text-center">
-            <img src="./imgs/vector2.svg" alt="vector1">
+            <img src="./imgs/Vector2.svg" alt="vector1.svg">
             <p>5 Baths</p>
           </li>
 
           <li class="text-center">
-            <img src="./imgs/vector3.svg" alt="vector1">
+            <img src="./imgs/Vector3.svg" alt="vector1.svg">
             <p>1 Garage</p>
           </li>
 
           <li class="text-center">
-            <img src="./imgs/Vector4.svg" alt="vector1">
+            <img src="./imgs/Vector4.svg" alt="vector1.svg">
             <p>1200 Sq Ft</p>
           </li>
         </ul>
@@ -143,45 +216,34 @@
         <button class="btn btn-outline-whtie px-5 text-white">Read more</button>
       </div>
 
-      <div class="bg__color"></div>
+
       <!-- Carousel wrapper -->
-      <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
-        <!-- Indicators -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+          <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
+          <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="1"
             aria-label="Slide 2"></button>
-          <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
+          <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
-
-        <!-- Inner -->
         <div class="carousel-inner">
-          <!-- Single item -->
           <div class="carousel-item active">
-            <img src="./imgs/hero_img1.png" class="d-block w-100" height="571" alt="Sunset Over the City" />
+            <img style="height: 650px;" src="./imgs/hero_img1.png" class="d-block w-100" alt="Wild Landscape" />
           </div>
-
-          <!-- Single item -->
           <div class="carousel-item">
-            <img src="./imgs/hero_img2.png" class="d-block w-100" height="571" alt="Sunset Over the City" />
+            <img style="height: 650px;" src="./imgs/hero_img2.png" class="d-block w-100" alt="Camera" />
           </div>
-
-          <!-- Single item -->
           <div class="carousel-item">
-            <img src="./imgs/hero_img3.png" class="d-block w-100" height="571" alt="Sunset Over the City" />
+            <img style="height: 650px;" src="./imgs/hero_img3.png" class="d-block w-100 " alt="Exotic Fruits" />
           </div>
         </div>
-        <!-- Inner -->
-
-        <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators"
           data-mdb-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators"
           data-mdb-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
@@ -193,7 +255,8 @@
     <section class="mb-5">
       <div class="container">
         <h2 class="mt-5 text-center text-dark">Recommended</h2>
-        <p class="text-center mb-5">Nulla quis curabitur velit volutpat
+        <p class="text-center mb-5">
+          Nulla quis curabitur velit volutpat
           auctor bibendum consectetur sit.
         </p>
         <ul class="row g-4 list-unstyled">
@@ -222,22 +285,22 @@
 
                 <ul class="d-flex justify-content-between list-unstyled">
                   <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <img src="./imgs/vector1.svg" alt="vector1.svg">
                     <p>4 Beds</p>
                   </li>
 
                   <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <img src="./imgs/Vector2.svg" alt="vector1.svg">
                     <p>5 Baths</p>
                   </li>
 
                   <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <img src="./imgs/Vector3.svg" alt="vector1.svg">
                     <p>1 Garage</p>
                   </li>
 
                   <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <img src="./imgs/Vector4.svg" alt="vector1.svg">
                     <p>1200 Sq Ft</p>
                   </li>
                 </ul>
@@ -291,22 +354,22 @@
 
                 <ul class="d-flex list-unstyled justify-content-between">
                   <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <img src="./imgs/vector1.svg" alt="vector1.svg">
                     <p>4 Beds</p>
                   </li>
 
                   <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <img src="./imgs/Vector2.svg" alt="vector1.svg">
                     <p>5 Baths</p>
                   </li>
 
                   <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <img src="./imgs/Vector3.svg" alt="vector1.svg">
                     <p>1 Garage</p>
                   </li>
 
                   <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <img src="./imgs/Vector4.svg" alt="vector1.svg">
                     <p>1200 Sq Ft</p>
                   </li>
                 </ul>
@@ -359,22 +422,22 @@
 
                 <ul class="d-flex justify-content-between list-unstyled">
                   <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <img src="./imgs/vector1.svg" alt="vector1.svg">
                     <p>4 Beds</p>
                   </li>
 
                   <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <img src="./imgs/vector1.svg" alt="vector1.svg">
                     <p>5 Baths</p>
                   </li>
 
                   <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <img src="./imgs/Vector3.svg" alt="vector1.svg">
                     <p>1 Garage</p>
                   </li>
 
                   <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <img src="./imgs/Vector4.svg" alt="vector1.svg">
                     <p>1200 Sq Ft</p>
                   </li>
                 </ul>
@@ -467,7 +530,7 @@
                   With over 1 million+ homes for sale available on the website,
                   Trulia can match you with a house you will want to call
                   home.
-                  </p>
+                </p>
               </div>
             </div>
           </li>
@@ -542,7 +605,7 @@
       </div>
       <div class="container">
         <div class="vermont__description">
-          <h2 class="text-white fs-6 fs-sm-5  fs-md-2 mb-2 mb-sm-4">
+          <h2 class="text-white  mb-5">
             Vermont Farmhouse With Antique Jail Is <br>
             the Week's Most Popular Home
           </h2>
@@ -559,7 +622,7 @@
         </p>
 
         <ul class="row g-4 list-unstyled">
-        
+
           <li class="col-md-6 col-lg-4">
             <div class=" card border border-light shadow ">
               <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
@@ -567,52 +630,52 @@
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
-        
+
                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-        
+
                 <img class="contact__img" src="./imgs/contact_img1.svg" alt="contack-img">
               </div>
-        
+
               <div class="card-body">
                 <h5 class="card-title">New Apartment Nice Wiew</h5>
                 <p class="card-text">
                   Quincy St, Brooklyn, NY, USA
                 </p>
-        
+
                 <ul class="d-flex justify-content-between list-unstyled">
                   <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <img src="./imgs/vector1.svg" alt="vector1.svg">
                     <p>4 Beds</p>
                   </li>
-        
+
                   <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <img src="./imgs/Vector2.svg" alt="vector1.svg">
                     <p>5 Baths</p>
                   </li>
-        
+
                   <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <img src="./imgs/Vector3.svg" alt="vector1.svg">
                     <p>1 Garage</p>
                   </li>
-        
+
                   <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <img src="./imgs/Vector4.svg" alt="vector1.svg">
                     <p>1200 Sq Ft</p>
                   </li>
                 </ul>
-        
+
               </div>
               <div class="card-footer">
                 <div class="d-flex justify-content-between">
-        
+
                   <span>
                     <del>$2,800/mo</del> <br>
                     <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
                   </span>
-        
+
                   <span>
                     <button class="btn btn-light btn-floating">
                       <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
@@ -621,66 +684,66 @@
                       <i class="fa-solid fa-heart"></i>
                     </button>
                   </span>
-        
+
                 </div>
               </div>
             </div>
           </li>
-        
+
           <li class="col-md-6 col-lg-4">
-        
+
             <div class="card border border-light shadow ">
               <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img src="./imgs/card__img2.png" class="card-img-top" alt="card-img">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
-        
+
                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-        
+
                 <img class="contact__img" src="./imgs/contact_img2.svg" alt="contack-img">
               </div>
-        
+
               <div class="card-body">
                 <h5 class="card-title">New Apartment Nice Wiew</h5>
                 <p class="card-text">
                   Quincy St, Brooklyn, NY, USA
                 </p>
-        
-        
+
+
                 <ul class="d-flex list-unstyled justify-content-between">
                   <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <img src="./imgs/vector1.svg" alt="vector1.svg">
                     <p>4 Beds</p>
                   </li>
-        
+
                   <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <img src="./imgs/Vector2.svg" alt="vector1.svg">
                     <p>5 Baths</p>
                   </li>
-        
+
                   <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <img src="./imgs/Vector3.svg" alt="vector1.svg">
                     <p>1 Garage</p>
                   </li>
-        
+
                   <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <img src="./imgs/Vector4.svg" alt="vector1.svg">
                     <p>1200 Sq Ft</p>
                   </li>
                 </ul>
               </div>
               <div class="card-footer">
                 <div class="d-flex justify-content-between">
-        
+
                   <span>
                     <del>$2,800/mo</del> <br>
                     <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
                   </span>
-        
+
                   <span>
                     <button class="btn btn-light btn-floating">
                       <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
@@ -689,66 +752,66 @@
                       <i class="fa-solid fa-heart"></i>
                     </button>
                   </span>
-        
+
                 </div>
               </div>
             </div>
           </li>
-        
+
           <li class="col-md-6 col-lg-4">
-        
+
             <div class="card border border-light shadow ">
               <div class="position-relative hover-overlay  ripple" data-mdb-ripple-color="light">
                 <img src="./imgs/card__img3.png" class="card-img-top" alt="...">
                 <a href="#!">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
-        
+
                 <div class="position-absolute top-0 start-0  mt-5  d-flex justify-content-around w-100">
                   <button type="button" class="btn btn-primary">FEATURED</button>
                   <button type="button" class="btn btn-dark ">FOR SALE</button>
                 </div>
-        
-        
+
+
                 <img class="contact__img" src="./imgs/contact_img3.svg" alt="contack-img">
               </div>
-        
+
               <div class="card-body">
                 <h5 class="card-title">New Apartment Nice Wiew</h5>
                 <p class="card-text">
                   Quincy St, Brooklyn, NY, USA
                 </p>
-        
+
                 <ul class="d-flex justify-content-between list-unstyled">
                   <li class="text-center">
-                    <img src="./imgs/vector1.svg" alt="vector1">
+                    <img src="./imgs/vector1.svg" alt="vector1.svg">
                     <p>4 Beds</p>
                   </li>
-        
+
                   <li class="text-center">
-                    <img src="./imgs/vector2.svg" alt="vector1">
+                    <img src="./imgs/Vector2.svg" alt="vector1.svg">
                     <p>5 Baths</p>
                   </li>
-        
+
                   <li class="text-center">
-                    <img src="./imgs/vector3.svg" alt="vector1">
+                    <img src="./imgs/Vector3.svg" alt="vector1.svg">
                     <p>1 Garage</p>
                   </li>
-        
+
                   <li class="text-center">
-                    <img src="./imgs/Vector4.svg" alt="vector1">
+                    <img src="./imgs/Vector4.svg" alt="vector1.svg">
                     <p>1200 Sq Ft</p>
                   </li>
                 </ul>
               </div>
               <div class="card-footer">
                 <div class="d-flex justify-content-between">
-        
+
                   <span>
                     <del>$2,800/mo</del> <br>
                     <ins class="text-decoration-none h5 m-0">$7,500/mo</ins>
                   </span>
-        
+
                   <span>
                     <button class="btn btn-light btn-floating">
                       <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
@@ -757,12 +820,12 @@
                       <i class="fa-solid fa-heart"></i>
                     </button>
                   </span>
-        
+
                 </div>
               </div>
             </div>
           </li>
-        
+
         </ul>
       </div>
     </section>
@@ -904,9 +967,9 @@
 
         <div class="d-flex justify-content-between gap-4">
           <p class="text-white m-0">Copyright © 2021 CreativeLayers. All Right Reserved.</p>
-          <button class="btn btn-primary" type="button">
+          <a id="./index.html" href="#" class="btn btn-primary" type="button">
             <i class="fa-solid fa-chevron-up"></i>
-          </button>
+          </a>
         </div>
 
       </div>
@@ -914,6 +977,8 @@
   </footer>
   <!-- /footer  -->
 
+  <script src="./js/stayl.js"></script>
+  <script src="./node_modules/mdb-ui-kit/js/mdb.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"></script>
 </body>
 

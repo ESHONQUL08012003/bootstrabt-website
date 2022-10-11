@@ -15528,7 +15528,7 @@ body {
   padding: 0;
   background: #f2f2f2;
   font-family: "Barlow", sans-serif;
-  font-family: "Fraunces", serif;
+  font-family: "Fraunces", sans-serif;
 }
 
 img {
@@ -15541,6 +15541,10 @@ img {
 
 .main {
   flex-grow: 1;
+}
+
+body {
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -15561,7 +15565,7 @@ img {
   width: 100%;
   position: fixed;
   top: 0;
-  background: #0D263B;
+  background: #0d263b;
   padding: 16px 0;
   z-index: 1000;
 }
@@ -15583,7 +15587,7 @@ img {
   gap: 10px;
   padding: 12px 15px;
   border-radius: 5px;
-  border: 1px solid #E6E9EC;
+  border: 1px solid #e6e9ec;
   background-color: #fff;
 }
 
@@ -15591,7 +15595,6 @@ img {
 .hero__section {
   position: relative;
   height: 571px;
-  margin-bottom: 96px;
   text-align: center;
 }
 
@@ -15601,7 +15604,27 @@ img {
   top: 25%;
   left: 50%;
   transform: translate(-50%);
-  color: #fff;
+  color: rgb(241, 232, 232);
+}
+
+.active {
+  display: block !important;
+  background-color: rgb(193, 209, 177);
+}
+
+.register-content {
+  display: none;
+}
+
+.regster {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: 100000;
+  width: 85%;
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
 }
 
 .bg__color {
@@ -15633,9 +15656,10 @@ img {
 
 .vermont__section {
   top: 0;
+  right: 0;
   position: absolute;
   height: 100%;
-  width: 571px;
+  width: 100%;
   background: rgba(0, 0, 0, 0.65);
 }
 
@@ -15668,5 +15692,5 @@ img {
 }
 
 footer {
-  background: #0D263B;
+  background: #0d263b;
 }/*# sourceMappingURL=main.css.map */
